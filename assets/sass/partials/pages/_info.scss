@@ -1,0 +1,41 @@
+.info-block {
+  margin-bottom: 40px;
+  .info-img {
+    margin: 0 0 15px;
+  }
+  .title {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  .info-text {
+    font-size: 15px;
+  }
+}
+
+.pagination-list {
+  list-style: none;
+  padding: 0;
+  li {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 15px;
+    a, span {
+      border: 1px solid #ddd;
+      padding: 3px 9px;
+      display: block;
+      color: #000;
+      &:hover {
+        text-decoration: none;
+        border-color: $orange;
+        color: #000;
+      }
+    }
+    &.current {
+      a, span {
+        background-color: $orange;
+        border-color: $orange;
+      }
+    }
+  }
+}

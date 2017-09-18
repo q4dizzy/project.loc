@@ -1,0 +1,23 @@
+@mixin btn-color($bgColor, $color, $brdColor, $hoverColor, $colorLight: darken) {
+  background-color: $bgColor;
+  border: 1px solid $bgColor;
+  color: $color;
+  &.btn-brd {
+    background-color: transparent;
+    color: $brdColor;
+    border-color: $bgColor;
+  }
+  &:hover, &:focus {
+    @if $colorLight == darken {
+      background-color: darken($bgColor, 10%);
+      border-color: darken($bgColor, 10%);
+    } @else if $colorLight == lighten {
+      background-color: lighten($bgColor, 10%);
+      border-color: lighten($bgColor, 10%);
+    } @else {
+      background-color: $colorLight;
+      border-color: $colorLight;
+    }
+    color: $hoverColor !important;
+  }
+}

@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 101 Template</title>
+
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="about-page">
+<div class="wrapper">
+    <header class="header">
+        <div class="top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-5">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="logo">
+                                    <a href="/" title="">
+                                        <img src="./assets/images/header-logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 visible-lg">
+                                <div class="site-desc">
+                                    <div class="site-desc-block">
+                                        <span>Строительная компания в Москве</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden-xs hidden-sm col-md-4 col-lg-3">
+                        <div class="addr">
+                            <i class="glyphicon glyphicon-map-marker"></i>
+                            <a href="#" title="">адреса офисов продаж</a>
+                        </div>
+                    </div>
+                    <div class="hidden-xs hidden-sm col-md-3 col-lg-2">
+                        <div class="phone">
+                            <a href="tel:+74956418882" title="">+7 495 641-88-82</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                        <div class="callback">
+                            <button type="button" class="btn btn-callback btn-brd btn-green hidden-xs hidden-sm"
+                                    data-toggle="modal" data-target="#phone_callback">
+                                обратный звонок
+                            </button>
+                            <button class="btn btn-collapse-nav visible-xs visible-sm collapsed" data-toggle="collapse"
+                                    data-target="#mobile_menu">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-header">
+            <div class="container">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown active">
+                                    <div class="wrap">
+                                        <a href="#" class="dropdown-toggle">Компания <span
+                                                class="fa fa-angle-down"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li>
+                                                <a href="#">One more separated link</a>
+
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#">Action</a></li>
+                                                    <li><a href="#">Another action</a></li>
+                                                    <li><a href="#">Something else here</a></li>
+                                                    <li role="separator" class="divider"></li>
+                                                    <li><a href="#">Separated link</a></li>
+                                                    <li role="separator" class="divider"></li>
+                                                    <li><a href="#">One more separated link</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <div class="wrap">
+                                        <a href="#" class="dropdown-toggle">Каталог <span
+                                                class="fa fa-angle-down"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">One more separated link</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <div class="wrap">
+                                        <a href="#" class="dropdown-toggle">Услуги <span
+                                                class="fa fa-angle-down"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">One more separated link</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <div class="wrap">
+                                        <a href="#" class="dropdown-toggle">Проекты <span
+                                                class="fa fa-angle-down"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">One more separated link</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <div class="wrap">
+                                        <a href="#" class="dropdown-toggle">Информация <span
+                                                class="fa fa-angle-down"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">One more separated link</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <div class="wrap">
+                                        <a href="#" class="dropdown-toggle">Контакты <span
+                                                class="fa fa-angle-down"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li>
+                                                <a href="#">One more separated link</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#">Action</a></li>
+                                                    <li><a href="#">Another action</a></li>
+                                                    <li><a href="#">Something else here</a></li>
+                                                    <li role="separator" class="divider"></li>
+                                                    <li><a href="#">Separated link</a></li>
+                                                    <li role="separator" class="divider"></li>
+                                                    <li><a href="#">One more separated link</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <div class="wrap">
+                                        <a href="#" class="dropdown-toggle more-items">
+                                            <span>...</span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#">Информация <i
+                                                        class="glyphicon glyphicon-menu-right"></i></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#">Action</a></li>
+                                                    <li><a href="#">Another action</a></li>
+                                                    <li><a href="#">Something else here</a></li>
+                                                    <li role="separator" class="divider"></li>
+                                                    <li><a href="#">Separated link</a></li>
+                                                    <li role="separator" class="divider"></li>
+                                                    <li><a href="#">One more separated link</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="search-item">
+                                    <div class="wrap">
+                                        <a data-toggle="collapse" href="#collapseSearch" aria-expanded="false"
+                                           aria-controls="collapseSearch">
+                                            <span class="glyphicon glyphicon-search"></span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="search collapse" id="collapseSearch">
+                                <div class="clearfix">
+                                    <div class="col-sm-12">
+                                        <form action="#" method="post">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Search for...">
+                                                <span class="input-group-btn">
+                                                    <button class="btn btn-green" type="button">Найти</button>
+                                                    <button type="button" class="close" data-toggle="collapse"
+                                                            data-target="#collapseSearch">
+                                                        <i class="glyphicon glyphicon-remove"></i>
+                                                    </button>
+                                                </span>
+                                            </div><!-- /input-group -->
+                                        </form>
+                                    </div><!-- /.col-lg-6 -->
+                                </div>
+                            </div>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+                <ul class="mobile-menu collapse" id="mobile_menu">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" title="Компания" data-toggle="dropdown">
+                            Компания <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="">
+                                <a href="#" title="О компании">
+                                    О компании </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Лицензии">
+                                    Лицензии </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Партнеры и поселки">
+                                    Партнеры и поселки </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Отзывы клиентов">
+                                    Отзывы клиентов </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Сотрудники">
+                                    Сотрудники </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Вакансии">
+                                    Вакансии </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Реквизиты">
+                                    Реквизиты </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" title="Типовые проекты" data-toggle="dropdown">
+                            Типовые проекты <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" title="Дома из пеноблоков">
+                                    Дома из пеноблоков </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Каркасные дома">
+                                    Каркасные дома </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Дома из клееного бруса">
+                                    Дома из клееного бруса </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                   title="Из оцилиндрованого бревна	">
+                                    Из оцилиндрованого бревна </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Бани">
+                                    Бани </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Беседки">
+                                    Беседки </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown ">
+                        <a class="dropdown-toggle" href="#" title="Услуги" data-toggle="dropdown">
+                            Услуги <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" title="Проектирование">
+                                    Проектирование </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Земляные работы">
+                                    Земляные работы </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Фундаменты">
+                                    Фундаменты </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Строительство ">
+                                    Строительство </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Отделочные работы">
+                                    Отделочные работы </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="" href="#" title="Поселки">
+                            Поселки </a>
+                    </li>
+                    <li class="dropdown ">
+                        <a class="dropdown-toggle" href="#" title="Наши работы" data-toggle="dropdown">
+                            Наши работы <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" title="Дома из клееного бруса">
+                                    Дома из клееного бруса </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Дома из пеноблоков">
+                                    Дома из пеноблоков </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Строительство домов">
+                                    Строительство домов </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="" href="#" title="Цены">
+                            Цены </a>
+                    </li>
+                    <li>
+                        <a class="" href="#" title="Контакты">
+                            Контакты </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" title="Информация" data-toggle="dropdown">
+                            Информация <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" title="Акции">
+                                    Акции </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Новости">
+                                    Новости </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Статьи">
+                                    Статьи </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Вопрос ответ">
+                                    Вопрос ответ </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Возможности">
+                                    Возможности </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="search">
+                        <div class="clearfix">
+                            <div class="col-xs-12 col-sm-12">
+                                <form action="#" method="post">
+                                    <div class="input-group">
+                                        <input class="form-control" placeholder="Search for..." type="text">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-green" type="button">Найти</button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="site-content">
+        <div class="page-bg" style="background: url('./images/item-bg.jpg') no-repeat scroll center 0 transparent;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-offset-2 col-lg-8">
+                        <div class="page-header">
+                            <h1>СТРОИТЕЛЬСТВО ДЕРЕВЯННЫХ ДОМОВ и КОТТЕДЖЕЙ</h1>
+                            <p class="page-header-desc">ПО ТИПОВЫМ И ИНДИВИДУАЛЬНЫМ ПРОЕКТАМ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="rounded-box">
+                    <div class="box">
+                        <h2 class="line green-line">О компании</h2>
+                    </div>
+                    <div class="box">
+                        <div class="logo-box">
+                            <img src="./assets/images/big-logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-lg-offset-1 col-lg-10">
+                                <div class="text-box">
+                                    <p>Компания основана в апреле 2016 года. Мы строим малоэтажные дома — коттеджи,
+                                        таунхаусы,
+                                        беседки, бани, а также возводим промышленные объекты — например, водонапорные
+                                        башни. </p>
+                                    <p>Наш конек — это дома под ключ и коттеджные поселки. Мы берем на себя весь цикл
+                                        работ – от
+                                        разработки проекта и закладки фундамента до внутренней отделки. Но если нужно,
+                                        сможем
+                                        реализовать любой проект малоэтажного здания за авторством другого архитектора
+                                        или
+                                        дизайнера</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3>Почему выбирают нас</h3>
+                        <ul class="advantages-list">
+                            <li>
+                                <div class="advantage-img">
+                                    <img src="./assets/images/plans.png" alt="">
+                                </div>
+                                <div class="advantage-text"><strong>Продуманные проекты и грамотные планировки</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="advantage-img">
+                                    <img src="./assets/images/montage.png" alt="">
+                                </div>
+                                <div class="advantage-text"><strong>Надёжность работ <br>с гарантией до 5 лет</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="advantage-img">
+                                    <img src="./assets/images/card.png" alt="">
+                                </div>
+                                <div class="advantage-text"><strong>На все каркасные дома предоставляется
+                                    кредит</strong></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <div class="row">
+                            <div class="col-lg-offset-2 col-lg-8">
+                                <div class="help-box">
+                                    <div class="help-box-text text-center">
+                                        <p>Если у вас есть сомнения по какому-либо вопросу, рекомендуем обратиться к
+                                            нашим
+                                            консультантам в <a href="#" title="">выставочном центре</a> или по телефону.
+                                        </p>
+
+                                        <a href="tel:+74956418882" title="" class="help-phone">+7 495
+                                            <strong>641-88-82</strong></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="row red-box small-house">
+                            <div class="col-lg-offset-4 col-lg-7">
+                                <h3 class="title">Получите уникальное предложение на строительство дома</h3>
+                            </div>
+                            <div class="col-lg-11">
+                                <a href="#" title="" class="btn btn-orange pull-right">Получить предложение</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-md-6 col-lg-5">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="logo">
+                                <a href="/" title="">
+                                    <img src="./assets/images/footer-logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="hidden-xs hidden-sm col-md-6 col-lg-6">
+                            <div class="site-desc">
+                                <div class="site-desc-block">
+                                    <span>Строительная компания в Москве</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <ul class="soc-list">
+                                <li>
+                                    <a href="#" title="">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">
+                                        <i class="fa fa-vk" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">
+                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">
+                                        <i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">
+                                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-2 col-lg-2">
+                    <ul class="footer-nav">
+                        <li><a href="#" title="">Компания</a></li>
+                        <li><a href="#" title="" class="active">Каталог</a></li>
+                        <li><a href="#" title="">Услуги</a></li>
+                        <li><a href="#" title="">Проекты</a></li>
+                        <li><a href="#" title="">Информация</a></li>
+                        <li><a href="#" title="">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <ul class="list-inline phone-list">
+                        <li>+7 495 641-88-82</li>
+                        <li>+7 495 532-78-29</li>
+                    </ul>
+                    <ul class="list-inline link-list">
+                        <li>сайт - <a href="http://www.kardom.ru" title="" target="_blank">www.kardom.ru</a></li>
+                        <li>e-mail: <a href="mailto:info@kardom.ru" title="" target="_blank">info@kardom.ru</a></li>
+                    </ul>
+
+                    <address>Москва, ул. Пушкина 21, 3 этаж, офис 41</address>
+
+                    <button class="btn btn-brd btn-white" type="button" data-toggle="modal" data-target="#info_project">
+                        Задать вопрос
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="./assets/js/jquery-1.12.4.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/common.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+/*PAGE - CONTACTS*/
+
+.contact-box {
+  text-align: center;
+  font-size: 20px;
+  & > div {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  i {
+    &.fa {
+      color: $green;
+      font-size: 28px;
+      vertical-align: middle;
+    }
+    margin-right: 5px;
+  }
+  a, address {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+  }
+}

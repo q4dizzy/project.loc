@@ -1,0 +1,67 @@
+.footer {
+  padding: 53px 0 70px;
+  background-color: #181818;
+  color: #fff;
+  font-size: 15px;
+  a {
+    color: #818082;
+    &:hover, &:focus,&.active {
+      color: $green;
+      text-decoration: underline;
+    }
+  }
+  .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 7px 0 0;
+    li {
+      font-size: 15px;
+      line-height: 22px;
+      margin: 0 0 6px;
+      a {
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .phone-list, .link-list {
+    margin: 6px 0;
+    li {
+      margin-right: 5px;
+    }
+  }
+
+  .btn {
+    margin: 22px 0 0;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    width: 180px;
+  }
+
+  .soc-list {
+    list-style: none;
+    padding: 0;
+    margin: 63px 0 10px;
+    li {
+      display: inline-block;
+      font-size: 18px;
+      height: 30px;
+      line-height: 30px;
+      margin: 0 5px 10px 0;
+      text-align: center;
+      width: 30px;
+      a {
+        background-color: #818082;
+        border-radius: 100%;
+        display: block;
+        color: #181818;
+        transition: all 0.3s;
+        &:hover, &:focus {
+          text-decoration: none;
+          color: $green;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+}

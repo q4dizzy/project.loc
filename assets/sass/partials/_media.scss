@@ -1,0 +1,275 @@
+@media all and (max-width: 1199px) {
+  .line {
+    padding: 0 12% !important;
+    &::before, &::after {
+      width: 10% !important;
+    }
+  }
+  .right-line {
+    padding: 0 !important;
+    &.line {
+      &::after {
+        display: none !important;
+      }
+    }
+  }
+
+  .calc-box, .cp-box {
+    background: none;
+    color: #000;
+    height: auto;
+    .calc-box-text, .cp-box-text {
+      height: auto;
+    }
+  }
+
+  .sort-list {
+    li {
+      width: 143px;
+      margin: 0 5px 0 0;
+      font-size: 14px;
+    }
+  }
+
+  .red-box {
+    text-align: center;
+    padding: 10px 0 20px;
+    &.big-house, &.small-house {
+      height: auto;
+      margin: 25px 0 !important;
+      .title {
+        text-align: center;
+      }
+      &::before {
+        display: none;
+      }
+      .btn {
+        margin-top: 10px;
+        float: none !important;
+      }
+    }
+  }
+
+  .cat-block {
+    .price-list {
+      text-align: center;
+    }
+  }
+}
+
+@media all and (min-width: 992px) {
+  .mobile-menu {
+    display: none !important;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .btn-collapse-nav {
+    position: absolute;
+    right: 10px;
+    top: -50px;
+  }
+
+  .header {
+    .top-header {
+      padding: 10px 0;
+      .callback {
+        margin: 0;
+      }
+    }
+    .bottom-header {
+      border-bottom: 2px solid $green;
+      .navbar-default {
+        border: none;
+        .navbar-nav {
+          display: table;
+          li {
+            display: list-item;
+            text-align: left;
+            a {
+              border-top: 1px solid #e6e6e6;
+              border-bottom: 1px solid transparent;
+              text-transform: none;
+            }
+            .dropdown-menu {
+              position: relative;
+              opacity: 1;
+              visibility: visible;
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .navbar {
+    min-height: 0;
+  }
+
+  .mobile-menu {
+    left: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 5;
+    .search {
+      position: static;
+      form {
+        .input-group {
+          padding: 0;
+        }
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .main-slider {
+    .inner {
+      text-align: center;
+      padding-left: 0;
+      .title {
+        font-size: 28px;
+      }
+      .inner-text {
+        font-size: 14px;
+      }
+    }
+  }
+  .banner-panel {
+    text-align: center;
+    .add-question, .adt-title {
+      margin-top: 10px;
+    }
+  }
+
+  .grey-line {
+    .btn {
+      margin-top: 10px;
+    }
+  }
+
+  .contact-box {
+    & > div {
+      margin: 15px 0;
+      display: block;
+    }
+  }
+
+  .review-block {
+    .review-meta, .review-quote {
+      text-align: center;
+      margin-left: 0;
+    }
+
+    .review-quote {
+      margin-top: 25px;
+      &::after, &::before {
+        bottom: 100%;
+        left: 50%;
+        top: auto;
+        border-right-color: transparent !important;
+        margin-top: 0;
+      }
+      &::after {
+        margin-left: -14px;
+        border-bottom-color: #fff;
+        border-width: 24px 14px;
+      }
+      &::before {
+        margin-left: -15px;
+        border-bottom-color: #000;
+        border-width: 25px 15px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+  .page-header {
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 30px;
+    }
+  }
+  .line {
+    padding: 0 !important;
+    &::before, &::after {
+      display: none;
+    }
+  }
+
+  .advantages-list {
+    li {
+      padding: 10px;
+      width: 50%;
+      margin: 0 -2px;
+      .advantage-img {
+        img {
+          max-height: 50px;
+        }
+      }
+      .advantage-text {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .grey-line {
+    text-align: center;
+    h1, h2, h3, h4, h5, h6 {
+      padding: 0;
+      &::after {
+        display: none;
+      }
+    }
+    .row {
+      & > div {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .project-desc {
+    .project-price {
+      text-align: center;
+    }
+  }
+
+  .pdf-download {
+    width: 200px;
+    margin: 0 auto 20px;
+  }
+
+  .schemes {
+    text-align: center;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 30px 0;
+    .soc-list {
+      margin: 30px 0 20px;
+    }
+    .footer-nav {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media all and (max-width: 530px) {
+  .item-views {
+    & > div {
+      width: 100%;
+    }
+  }
+
+  .video-slider {
+    .item {
+      .title {
+        text-align: center;
+      }
+    }
+  }
+}

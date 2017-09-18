@@ -1,0 +1,116 @@
+.calc-page {
+  .title {
+    color: #c6c8c6;
+    margin-bottom: 30px;
+  }
+  .block-title {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .slider-outer {
+    position: relative;
+    width: 100%;
+    padding-right: 125px;
+  }
+
+  .ui-slider {
+    display: inline-block;
+    width: 100%;
+  }
+  .amount {
+    margin: -13px 0 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 100px;
+    input {
+      border: medium none;
+      display: inline-block;
+      text-align: center;
+      width: 30px;
+    }
+  }
+  .box {
+    background: url("../images/green-arrow-down.png") no-repeat scroll center bottom transparent;
+    padding-bottom: 30px;
+    &:last-child {
+      background: none;
+      padding-bottom: 0;
+    }
+  }
+  .btn[type="submit"] {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+.btn-dropdown {
+  width: 200px;
+  border-radius: 0;
+  background-color: #eef0ee;
+  border: 1px solid #bbbcbc;
+  text-align: left;
+  position: relative;
+  padding-right: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  .caret {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px dashed;
+    margin-top: -2.5px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+  }
+}
+
+.block {
+  margin-bottom: 25px;
+  .dropdown-menu {
+    padding: 10px 12px;
+    min-width: 220px;
+    margin: -20px 0 0 10px;
+    border-radius: 0;
+    box-shadow: 5px 7px 10px #b8b8b8;
+  }
+
+  i {
+    &.fa {
+      &.fa-question-circle {
+        color: #45ae17;
+        font-size: 30px;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+.tooltip {
+  text-align: center;
+  background-color: #fff;
+
+  .tooltip-header {
+    text-align: center;
+    padding: 20px 0 0;
+    i {
+      color: #c6c8c6 !important;
+      font-size: 36px !important;
+    }
+  }
+  .tooltip-inner {
+    padding: 20px;
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    max-width: 220px;
+  }
+  &.in {
+    opacity: 1;
+    box-shadow: 5px 7px 10px #b8b8b8;
+  }
+}

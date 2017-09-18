@@ -1,0 +1,73 @@
+.reviews-page {
+  .banner-panel {
+    text-align: center;
+    margin-bottom: 0;
+
+    .banner-panel-title {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      border-radius: 25px;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 10px 12px;
+    }
+  }
+}
+
+.review-block {
+  margin: 0 0 25px;
+
+  .review-meta {
+    .name {
+      color: $green;
+      font-weight: bold;
+      font-size: 14px;
+      margin: {
+        top: 10px;
+        bottom: 15px;
+      }
+    }
+  }
+
+  .review-quote {
+    border: 1px solid #000;
+    padding: 15px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    min-height: 245px;
+    margin: {
+      top: 15px;
+      bottom: 15px;
+    }
+    &::after,&::before {
+      right: 100%;
+      top: 15%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+    }
+    &::after {
+      border-color: rgba(255, 255, 255, 0);
+      border-right-color: #fff;
+      border-width: 14px 24px;
+      margin-top: -14px;
+    }
+    &::before {
+      border-color: rgba(0, 0, 0, 0);
+      border-right-color: #000;
+      border-width: 15px 25px;
+      margin-top: -15px;
+    }
+  }
+
+  .review-meta, .review-quote {
+    margin-left: 10px;
+  }
+}

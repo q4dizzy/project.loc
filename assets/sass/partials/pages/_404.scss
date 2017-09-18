@@ -1,0 +1,16 @@
+.error_404-page {
+
+}
+
+.error_404 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 30px 0;
+  min-height: 450px;
+  .error_404-title {
+    font-size: 180px;
+    font-weight: bold;
+    color: $green;
+  }
+}

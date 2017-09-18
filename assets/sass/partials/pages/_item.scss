@@ -1,0 +1,260 @@
+/*PAGE - ITEM*/
+
+.rounded-box {
+  padding: 35px 0;
+  background-color: #fff;
+  position: relative;
+  &::before, &::after {
+    background-color: #fff;
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    top: 0;
+  }
+  &::before {
+    border-radius: 5px 0 0 5px;
+    right: 100%;
+  }
+
+  &::after {
+    border-radius: 0 5px 5px 0;
+    left: 100%;
+  }
+  .line {
+    margin-bottom: 43px;
+  }
+}
+
+.big-project-img {
+  margin-bottom: 20px;
+}
+
+.project-desc {
+  .project-desc-title {
+    font-size: 19px;
+    margin: 0 0 20px;
+  }
+
+  .add-block {
+    margin: 20px 0 0;
+    .add-info {
+      margin: 0 0 24px;
+      span {
+        margin-left: 12px;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .height-info-block {
+    font-family: Roboto, Ubuntu, sans-serif;
+    dl {
+      dt {
+
+      }
+      dd {
+        span {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .project-price {
+    margin-top: 30px;
+    .special-price, .price {
+      text-transform: uppercase;
+      font-size: 16px;
+      margin: 0;
+      & + strong {
+        font-size: 33px;
+      }
+    }
+    .special-price {
+      color: $lightRed;
+    }
+  }
+
+  .btn {
+    margin-top: 12px;
+    width: 100%;
+    max-width: 350px;
+    padding: 12px;
+    border-radius: 0;
+    font-weight: bold;
+  }
+}
+
+.pdf-download {
+  background: url("../images/download-pdf.png") no-repeat scroll 0 0 transparent;
+  padding-left: 65px;
+  padding-top: 15px;
+  p {
+    margin: 0;
+  }
+  a {
+    color: $green;
+    &:hover, &:focus {
+      color: $darkGreen;
+    }
+  }
+}
+
+.edit-project {
+  width: 100%;
+  display: block;
+  text-transform: uppercase;
+  font-size: 23px;
+  border-radius: 0;
+  text-align: left;
+  margin: 20px 0 0;
+  span {
+    margin-left: 15px;
+    color: #000;
+  }
+}
+
+.include-in-cost {
+  margin: 15px 0 0;
+  font-size: 11px;
+  p {
+    margin: 0 0 3px;
+  }
+}
+
+.basic-comp {
+  dl {
+    dt {
+      text-transform: uppercase;
+      & ~ dt {
+        margin-top: 20px;
+      }
+    }
+    dd {
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  .btn {
+    border-radius: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.calc-box, .cp-box {
+  background: url("../images/calc-bg.jpg") no-repeat scroll 0 0 transparent;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+
+  padding: 20px 0;
+  span {
+    font-size: 28px;
+  }
+  .calc-box-text {
+    height: 260px;
+    overflow: hidden;
+    padding: 0 0 35px;
+  }
+  .btn {
+    width: 85%;
+    max-width: 240px;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    font-size: 17px;
+    border-radius: 25px;
+  }
+}
+
+.calc-box {
+  background: url("../images/calc-bg.jpg") no-repeat scroll 0 0 transparent;
+  height: 400px;
+}
+
+.cp-box {
+  background: url("../images/create-project-bg.jpg") no-repeat scroll 0 0 transparent;
+  height: 425px;
+}
+
+.help-box {
+  border: 1px solid #e6e6e6;
+  width: 100%;
+  text-transform: uppercase;
+  display: table;
+  margin: auto;
+  .help-box-text {
+    padding: 30px;
+    vertical-align: middle;
+    display: table-cell;
+    height: inherit;
+  }
+  a {
+    color: $orange;
+    text-decoration: underline;
+    font-weight: bold;
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+  .help-phone {
+    color: #000;
+    font-size: 23px;
+    font-weight: 300;
+  }
+}
+
+.red-box {
+  background-color: $red;
+  color: #fff;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+  }
+  &.big-house {
+    margin: 200px 0 100px !important;
+    height: 110px;
+    &::before {
+      background: transparent url("../images/big-house.png") no-repeat scroll 0 0;
+      bottom: -35px;
+      height: 396px;
+      left: -160px;
+      width: 576px;
+    }
+    .btn {
+      margin-top: 35px;
+    }
+  }
+  &.small-house {
+    height: 193px;
+    margin-top: 100px;
+    .title {
+      text-align: left;
+      font-size: 32px;
+      margin-top: 50px;
+    }
+    &::before {
+      background: transparent url("../images/small-house.png") no-repeat scroll 0 0;
+      top: 50%;
+      margin-top: -145px;
+      height: 264px;
+      left: -80px;
+      width: 383px;
+    }
+    .btn {
+      margin-top: -25px;
+    }
+  }
+  .btn {
+    padding: 10px 12px;
+    text-transform: uppercase;
+    border-radius: 25px;
+
+  }
+}
